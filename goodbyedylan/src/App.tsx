@@ -59,31 +59,33 @@ function App() {
     },
   ];
   return (
-    <BackgroundGradientAnimation>
-      <div className='min-h-screen flex flex-col'>
-        <div className='m-5 mt-10 flex-grow'>
-          <BentoGrid className="lg:grid-rows-3">
-            {features.map((feature) => (
-              <BentoCard key={feature.name} {...feature} />
-            ))}
-          </BentoGrid>
+    <div className='w-screen  overflow-y-auto'>
+      <BackgroundGradientAnimation>
+        <div className='flex flex-col'>
+          <div className='m-5 mt-10 flex-grow'>
+            <BentoGrid className="lg:grid-rows-3">
+              {features.map((feature) => (
+                <BentoCard key={feature.name} {...feature} />
+              ))}
+            </BentoGrid>
+          </div>
+          <div className='m-5 flex-grow'>
+            <BentoGrid className="lg:grid-rows-3">
+              {features.map((feature) => (
+                <BentoCard key={feature.name} {...feature} />
+              ))}
+            </BentoGrid>
+          </div>
+          <div className='m-5 flex-grow'>
+            <BentoGrid className="lg:grid-rows-3">
+              {features.map((feature) => (
+                <BentoCard key={feature.name} {...feature} />
+              ))}
+            </BentoGrid>
+          </div>
         </div>
-        <div className='m-5 flex-grow'>
-          <BentoGrid className="lg:grid-rows-3">
-            {features.map((feature) => (
-              <BentoCard key={feature.name} {...feature} />
-            ))}
-          </BentoGrid>
-        </div>
-        <div className='m-5 flex-grow'>
-          <BentoGrid className="lg:grid-rows-3">
-            {features.map((feature) => (
-              <BentoCard key={feature.name} {...feature} />
-            ))}
-          </BentoGrid>
-        </div>
-      </div>
-  </BackgroundGradientAnimation>
+    </BackgroundGradientAnimation>
+  </div>
   )
 }
 
