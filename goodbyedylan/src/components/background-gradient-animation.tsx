@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "../utils/cn";
+import { cn } from "../lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
@@ -88,12 +88,8 @@ export const BackgroundGradientAnimation = ({
   }, []);
 
   return (
-    <div
-      className={cn(
-        "fixed inset-0 overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]",
-        containerClassName
-      )}
-    >
+    <div className={cn("relative min-h-screen w-full overflow-y-auto", containerClassName)}>
+      <div className={cn("fixed inset-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))] h-full w-full")}></div>
       <svg className="hidden">
         <defs>
           <filter id="blurMe">
@@ -112,10 +108,12 @@ export const BackgroundGradientAnimation = ({
           </filter>
         </defs>
       </svg>
-      <div className={cn("relative z-10", className)}>{children}</div>
+      <div className={cn("relative z-10 min-h-screen w-full", className)}>
+        {children}
+      </div>
       <div
         className={cn(
-          "absolute inset-0 h-full w-full blur-lg",
+          "fixed inset-0 h-full w-full blur-lg",
           isSafari ? "blur-2xl" : "[filter:url(#blurMe)_blur(40px)]"
         )}
       >
