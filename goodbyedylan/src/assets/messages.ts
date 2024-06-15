@@ -298,13 +298,6 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
     {
-      name: "Jayson",
-      description:
-      `Congrats on graduating Dylan! I'm grateful that I got to meet you during my last two years of college. There's a lot of memories we share that I'm so glad to have because you and every one of our friends were one of the highlights of my experience here. I'm excited to live with you next year and hangout more :)`,
-      image:[],
-      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
-    },
-    {
       name: "Thao",
       description:
       `Congrats on graduating Dylan! Thank you for helping me with the hackathons and being an awesome friend. Luckily you are going to be staying in Irvine next year. Hopefully we will be seeing each other more often next year. `,
