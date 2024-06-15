@@ -7,7 +7,7 @@ function CarouselComponent({ images }: carouselProps) {
     <div
       style={{
         position: 'relative',
-        width: '100%'
+        width: '100%',
       }}
     >
       <Carousel
@@ -65,14 +65,22 @@ function CarouselComponent({ images }: carouselProps) {
         swipeable
       >
         {images.map((image, index) => (
-          <div key={index} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div
+            key={index}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: '100%',
+            }}
+          >
             <img
               src={image}
               style={{
                 maxHeight: '100%',
-                width: 'auto',
+                maxWidth: '100%',
                 borderRadius: 10,
-                objectFit: 'contain'
+                objectFit: 'contain',
               }}
             />
           </div>
