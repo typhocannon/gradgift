@@ -4,16 +4,19 @@ import CarouselComponent from "../carousel";
 import ReactCardFlip from "react-card-flip";
 import "../../App.css";
 const BentoGrid = ({
+    id,
     children,
     className,
     style,
 }: {
+    id?:string;
     children: ReactNode;
     className?: string;
     style?: React.CSSProperties;
 }) => {
     return (
         <div
+            id={id}
             className={cn(
                 // "grid w-full auto-rows-[22rem] grid-cols-3 gap-4",
                 // "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto grid-cols-auto-fill",
@@ -98,12 +101,12 @@ const BentoCard = ({
                 onClick={handleClick}
                 className={cn(
                     "rounded-xl bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
-                    "border flex items-center justify-center pointer",
+                    "border flex items-center justify-center pointer ",
                     className
                 )}
             >
                 <div className="max-w-sm pointer-events-none flex flex-col m-3 mt-10 transition-all duration-300 group-hover:-translate-y-5 rounded-lg h-full">
-                    <div className="flex-grow flex flex-col justify-between">
+                    <div className="flex-grow flex flex-col justify-between ">
                         <div className="text-container mt-5">
                             <h3 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300">
                                 {name}
