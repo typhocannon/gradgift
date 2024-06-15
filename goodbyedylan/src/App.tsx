@@ -10,38 +10,38 @@ import { BentoCard, BentoGrid } from "./components/magicui/bento-grid";
 //   InputIcon,
 // } from "@radix-ui/react-icons";
 // import { cn } from './lib/utils';
-import { features } from "./assets/test";
+// import { features } from "./assets/test";
 import { messages } from "./assets/messages";
 
 function App() {
-    const [cards, setCards] = useState<typeof features>([]);
-    const [columns, setColumns] = useState(1);
-    useEffect(() => {
-        const containerHeight = window.innerHeight;
-        let currentColumnHeight = 0;
-        let colCount = 1;
-        features.forEach(card => {
-            if (currentColumnHeight + card.height > containerHeight) {
-                colCount++;
-                currentColumnHeight = card.height;
-            } else {
-                currentColumnHeight += card.height;
-            }
-        });
-        console.log('colCount:', colCount); //TESTING
-        setCards(features);
-        setColumns(colCount);
-    }, [cards]);
+    // const [cards, setCards] = useState<typeof features>([]);
+    const [columns, setColumns] = useState(3);
+    // useEffect(() => {
+    //     const containerHeight = window.innerHeight;
+    //     let currentColumnHeight = 0;
+    //     let colCount = 1;
+    //     features.forEach(card => {
+    //         if (currentColumnHeight + card.height > containerHeight) {
+    //             colCount++;
+    //             currentColumnHeight = card.height;
+    //         } else {
+    //             currentColumnHeight += card.height;
+    //         }
+    //     });
+    //     console.log('colCount:', colCount); //TESTING
+    //     setCards(features);
+    //     setColumns(colCount);
+    // }, [cards]);
 
-    const handleScroll = (event: React.WheelEvent<HTMLDivElement>) => {
-        const container = event.currentTarget;
-        const scrollAmount = event.deltaY;
-        container.scrollTo({
-            top: 0,
-            left: container.scrollLeft + scrollAmount,
-            behavior: "smooth",
-        });
-    };
+    // const handleScroll = (event: React.WheelEvent<HTMLDivElement>) => {
+    //     const container = event.currentTarget;
+    //     const scrollAmount = event.deltaY;
+    //     container.scrollTo({
+    //         top: 0,
+    //         left: container.scrollLeft + scrollAmount,
+    //         behavior: "smooth",
+    //     });
+    // };
 
     // useEffect(() => {
     //     if (typeof window === "undefined") return;
@@ -72,8 +72,25 @@ function App() {
     //   }
     // }, [divRef]);
 
+    useEffect(() => {
+      const handleResize = () => {
+        const maxRows = window.innerHeight > 1200 ? 2 : 1; 
+        // const itemsPerColumn = Math.ceil(messages.length / maxRows);
+        // setColumns(itemsPerColumn);
+        const maxColumns = window.innerWidth > 900 ? Math.ceil(messages.length / maxRows) : 1; 
+        setColumns(maxColumns);
+      };
+  
+      handleResize(); // Set initial columns
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize); 
+      };
+    }, []);
+
     return (
-        <div onWheel={handleScroll}>
+        <div >
             <BackgroundGradientAnimation>
                     {/* <BentoGrid className="lg:grid-rows-5"> */}
                     {/* <BentoGrid 
@@ -81,8 +98,12 @@ function App() {
                         style={{gridTemplateColumns: `repeat(${columns + 1}, auto)`}}
                     > */}
                     <BentoGrid 
-                        className={`grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto debug p-5`}
-                        style={{gridTemplateColumns: `repeat(${columns + 1}, auto)`}}
+                        id='bento-grid'
+                        className={`${columns <= 3 && `mx-auto`} grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto debug p-5`}
+                        style={{
+                          gridTemplateColumns: `repeat(${columns}, auto)`,
+                        }}
+
                     >
                         {messages && messages.map((m, i) => (
                             <BentoCard
