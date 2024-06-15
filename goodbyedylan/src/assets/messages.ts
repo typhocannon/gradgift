@@ -337,7 +337,7 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
 
     This gift was Justin’s idea and Jose and I teamed up to develop the website! I hope you like it as I thought it was a fitting gift for the guy who introduced me to web dev. Ignore the spaghetti code on my end as this was done through the trenches of the night (Jose hard carry). I’m grateful to have met you through my dear nephew and you’ve honestly impacted 100% of my time at UCI. Thank you for everything and I wish you the best in the future! 
     `,
-      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/tft.jpg?alt=media&token=0e3371b5-2700-4417-a82c-e76b3b9be1e2", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/ball.jpg?alt=media&token=63c3ec3d-e7d7-43d1-aadd-66b78c714c09"],
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/car.jpg?alt=media&token=d3501e6c-38b9-4942-9372-2502a3b2db3a", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/ball.jpg?alt=media&token=63c3ec3d-e7d7-43d1-aadd-66b78c714c09"],
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
   ];
