@@ -118,7 +118,7 @@ function CarouselComponent({ images }: carouselProps) {
         overflow: 'hidden', // Ensure no overflow is visible
         
         maxHeight: "100%",
-        width: "auto",
+        width: "100%",
         borderRadius: 10,
         objectFit: "contain",
       }}

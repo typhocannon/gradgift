@@ -1,5 +1,13 @@
 export const messages = [
     {
+      name: "Ahbiram",
+      description: `helo helo - Congrats on graduating Dylan! It's been amazing watching you grow over the past few years, exploring new paths and opportunities. From AIChE potted plant workshops and CARATS to codespam and talking about microcontrollers, I'm fortunate to have shared a part of that journey with you :)) Your adventures have been inspiring, and I'm glad you found a field that you truly enjoy and community that you can call home.
+Get some well earned rest before you start your next chapter, we can't wait to see what lies ahead for you!
+PS: We forgive you for being a traitor ;)) (https://t)`,
+      image: [],
+      className: "lg:row-start-1 lg:row-end-1 lg:col-start-2 lg:col-end-2",
+    },
+    {
       name: "Anthony",
       description: "Happy Graduation Dylan! I hope you have a fun day and do things you’ll remember and cherish. Thanks for being such a joy to be around. It might not seem like it but hanging out and doing stuff like hugging a watermelon really made my week sometimes and I appreciate it. You’re the best!",
       image: [],
@@ -141,6 +149,145 @@ export const messages = [
       `,
       image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/IMG_1210.JPG?alt=media&token=38ba602d-40f2-4aea-9697-a53c92a761ad", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/IMG_3508.jpg?alt=media&token=8c92ed6d-ba06-4288-8e2a-6c7fa7466da7"],
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
-    }
+    },
+    {
+      name: "Jasmine",
+      description:
+      `Hi Dylan!
+      Congratulations on your graduation! When I first met you at zothacks, I was soo blown away by the extra mile you went to support our team - whether that meant writing detailed discord messages describing a very niche functionality or staying with us those entire 12 hours to grind through the project. 
+
+      This is one thing that I admire most about you, is that you always go 10x in everything you do. People appraise efficiency and compressing the time margin, but personally I am always so impressed by how much you go above and beyond. The amount of effort you put into your icssc workshops for your bits is INSANE (comparatively against other mentors who just treated it as a social lolol). That is how I try to live my life, and I'm really grateful to have met someone who operates in the same way :)
+
+      Also, I hope my high expectations haven't annoy you too much at hackathons LOL You are a really great teacher and have incredible tenacity (honestly, I've dosed off a couple of times in those all nighters, it's crazy that you don't sleep at all), and I'm really happy to have braved through the 5-10 hackathons we've attended together!
+
+      Keep in touch, and I'll lyk when there are openings for the drone class :)`,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/doggoai.jpeg?alt=media&token=41fc0aed-e662-4303-bfad-531773e8546f"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Rosnita",
+      description: 
+      `Hi Dylan! It was really awesome getting to know you this year and hanging out :) I had a lot of fun and hope we can hang out more next year! You're really good at climbing, so I enjoyed watching you do some of those difficult climbs and it was really kind of you to help me out on some of the ones I was struggling with. I know we haven't talked a lot but every time we have, you've been very nice and funny, so I'm glad you'll still be around the area next year. Congrats on graduating and good luck with everything!`,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Michelle",
+      description: 
+      `Hi how's the best sim tutor ever doing! Heard you're graduating, very exciting, I don't really remember mine, but I'm sure yours won't be a fever dream like mine since it's indoors. Anyhow thanks for always delivering my "package" when I needed it, so best tutor/amazon driver. Keep in touch!`,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Sharon",
+      description: 
+      `Hii Dylan,
+
+      Congrats on graduating!! It’s always super fun hanging out with you and I really appreciate you for always being there! Best wishes for the future~
+      •~•
+      `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Houri",
+      description:
+      `Hey Dylan! Congratulations on graduating! I remember meeting you at the very first lecture of ICS 46. It was me, Alicia, and Sandra. Everyone around us kept asking if we were transfer students and our group kept getting bigger and bigger. I remember looking to my left and asking if you were a transfer student; and the rest was history! Honestly, your passion for computer science and the path you took to get here has been so inspiring. I'm glad to hear that everything worked out in the end for you and you're gonna do amazing things in life! And hey, maybe this summer I can finally join you guys (and Alicia) for rock climbing! Congratulations! :)`,
+      image: [],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Alessio",
+      description: 
+      `CONGRATS DYLAN!!!! I am really glad we met, you are the best rock climbing body ever <3
+
+      `,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/image%20(1).png?alt=media&token=ec00af59-a8a0-4784-9772-853aa7943b7d"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Linda",
+      description:
+      `Hi Dylan,
+
+
+      I only started hanging out with you more this year, but I have always appreciated how you and Casey took care of me  Thank you for inviting to join your group in class, and being such a kind, fun, and supportive friend. I really appreciate how you always go out of your way to help others without taking any credit!! Anyway, I hope you will always take good care of yourself, and I hope you will always have the most fun in everything you do. Come visit me sometimes too and keep in touch hehe!! 
+
+
+      Best,
+      Linda 
+      `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Stephanie",
+      description:
+      `Dylan, congratulations on graduating!! I am glad you've been able to pursue your passion in CS at UCI (even if it took you much farther from the beach) and that you've kept us updated on all your cool projects, life developments, and climbing progress. It's been great going through undergrad with you even asynchronously and I'm happy we met so long ago blowing hair dryers on wet balls. From studying for ochem to pizza boba to consuming more boba after stealing your chalk, it's been a cool time, and I am v excited to see where you decide to go next :))
+
+
+      esmecheme
+
+
+      - Stephanie (dirty dish generator)
+
+      `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Alan Lim",
+      description:
+      `Hey Dylan,
+
+      Congrats on graduating! Youre one of the most passionate, kind, and smart people I know. I know that after you graduate that you'll go on to do great things and that your best days are ahead of you. Enjoy the fruits of your labor for today and I hope that your graduation is shared with friends and family. You deserve it.
+
+
+      Best,
+      Alan
+      `,
+      image:["https://i.ibb.co/xGGhRLR/Dylan-Graduation.jpg"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Bryant",
+      description:
+      `Hi Dylan!
+
+      Congrats on grad’ing! It’s crazy to think that we were playing MapleStory and Mario Galaxy as kids. I feel extremely lucky to have stayed connected throughout our lives. 
+      I have to confess that I’ve looked up to you since we were kids. You being older, I thought that you were so accomplished and knew how to do so many cool things. Much of that admiration is the same to how I look at you now. I’m constantly amazed at how many skills you have and how you’re able to tackle any problem. Working with you in hackathons has been rewarding by seeing how you work and us being able to make a project together.
+      Someday, I hope to emulate the perseverance, intelligence, and compassion that I see in you. Take care, I know you’ll do great things in life, and let’s keep going to climb together!
+      -Childhood Best Friend Bryant
+      `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Alex Liu",
+      description:
+      `Congrats on making it out Dylan!! Through our time together at UCI you've not only shown me just how much fun it is to climb plastic rocks, but also introduced me to some of my closest friends. I'm really grateful for all the memories you've shared with us, and know you're off to do great things!
+
+      Stay cool Dylan 
+
+
+      Side note: I never thought it would've been possible to run a successful hardware workshop before you did it.
+
+      `,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/2.png?alt=media&token=d970f846-c63d-44ba-a337-e6c04dcc0772", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/1%20(1).png?alt=media&token=b00750b1-c565-4c92-804e-984bf72bcd51", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/1.png?alt=media&token=a6cb1ef7-6f56-4e3c-8ba3-ddcd15eda898", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/3.png?alt=media&token=b303cbcb-fdbc-4015-a230-87238058d688", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/4.png?alt=media&token=40906bce-305e-4f07-88b7-11eb38c469bf"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Bryant",
+      description:
+      `Hi Dylan!
+
+      Congrats on grad’ing! It’s crazy to think that we were playing MapleStory and Mario Galaxy as kids. I feel extremely lucky to have stayed connected throughout our lives. 
+      I have to confess that I’ve looked up to you since we were kids. You being older, I thought that you were so accomplished and knew how to do so many cool things. Much of that admiration is the same to how I look at you now. I’m constantly amazed at how many skills you have and how you’re able to tackle any problem. Working with you in hackathons has been rewarding by seeing how you work and us being able to make a project together.
+      Someday, I hope to emulate the perseverance, intelligence, and compassion that I see in you. Take care, I know you’ll do great things in life, and let’s keep going to climb together!
+      -Childhood Best Friend Bryant
+      `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
   ];
 
