@@ -7,9 +7,9 @@ function CarouselComponent({ images }: carouselProps) {
     <div
       style={{
         position: 'relative',
-        // width: '100%',
-        maxWidth: '80%',
-        height: 'auto'
+        width: '100%',
+        height: '100%',
+        overflow: 'hidden', // Ensure no overflow is visible
       }}
     >
       <Carousel
@@ -17,14 +17,14 @@ function CarouselComponent({ images }: carouselProps) {
         arrows={false}
         autoPlay
         autoPlaySpeed={4000}
-        centerMode={false}
+        centerMode={false} // Ensure center mode is off
         className=""
-        containerClass="container"
+        containerClass="carousel-container"
         dotListClass=""
         draggable
         focusOnSelect={false}
         infinite
-        itemClass=""
+        itemClass="carousel-item"
         keyBoardControl
         minimumTouchDrag={80}
         pauseOnHover
@@ -59,7 +59,7 @@ function CarouselComponent({ images }: carouselProps) {
         rtl={false}
         shouldResetAutoplay
         showDots
-        sliderClass=""
+        sliderClass="carousel-slider"
         slidesToSlide={1}
         swipeable
       >
@@ -71,16 +71,15 @@ function CarouselComponent({ images }: carouselProps) {
               alignItems: 'center',
               justifyContent: 'center',
               height: '100%',
+              width: '100%', // Ensure the slide takes up the full width
             }}
           >
             <img
               src={image}
               style={{
-                maxHeight: 'block',
-                height: '100%',
+                maxHeight: '100%',
+                maxWidth: '100%',
                 borderRadius: 10,
-                margin: 'auto',
-                width: '100%',
                 objectFit: 'contain'
               }}
             />
@@ -90,84 +89,5 @@ function CarouselComponent({ images }: carouselProps) {
     </div>
   );
 }
-// function CarouselComponent({ images }: carouselProps) {
-//   return (
-//     <div
-//       style={{
-//         position: 'relative',
-//         width: '100%'
-//       }}
-//     >
-//       <Carousel
-//         additionalTransfrom={0}
-//         arrows={false}
-//         autoPlay
-//         autoPlaySpeed={4000}
-//         centerMode={false}
-//         className=""
-//         containerClass="container-with-dots"
-//         dotListClass=""
-//         draggable
-//         focusOnSelect={false}
-//         infinite={false}
-//         itemClass=""
-//         keyBoardControl
-//         minimumTouchDrag={80}
-//         pauseOnHover
-//         renderArrowsWhenDisabled={false}
-//         renderButtonGroupOutside={false}
-//         renderDotsOutside={true}
-//         responsive={{
-//           desktop: {
-//             breakpoint: {
-//               max: 3000,
-//               min: 1024
-//             },
-//             items: 1,
-//             partialVisibilityGutter: 40
-//           },
-//           mobile: {
-//             breakpoint: {
-//               max: 464,
-//               min: 0
-//             },
-//             items: 1,
-//             partialVisibilityGutter: 30
-//           },
-//           tablet: {
-//             breakpoint: {
-//               max: 1024,
-//               min: 464
-//             },
-//             items: 1,
-//             partialVisibilityGutter: 30
-//           }
-//         }}
-//         rewind
-//         rewindWithAnimation={true}
-//         rtl={false}
-//         shouldResetAutoplay
-//         showDots={true}
-//         sliderClass=""
-//         slidesToSlide={1}
-//         swipeable
-//       >
-//         {images.map((image, index) => (
-//           <div key={index} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-//             <img
-//               src={image}
-//               style={{
-//                 maxHeight: '100%',
-//                 width: 'auto',
-//                 borderRadius: 10,
-//                 objectFit: 'contain'
-//               }}
-//             />
-//           </div>
-//         ))}
-//       </Carousel>
-//     </div>
-//   );
-// }
 
 export default CarouselComponent;
