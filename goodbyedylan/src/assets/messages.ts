@@ -319,10 +319,25 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
     {
+      name:"Ben",
+      description:
+      `Hi Dylan,
+
+      Congratulations on graduating! I'm so happy that we crossed paths in this great world of uncertainties and coincidences, and I'm honored to call you a friend. Working with you has been an immense pleasure. You have made some of the most thoughtful contributions and spurred a collaborative energy that promoted extraordinary productivity. Your enthusiasm for the work, commitment to the grind, and innovative mindset are rare and commendable. I'll be keeping in touch, and we will do rock climbing in the Fall!
+
+      Stay awesome, man!
+        `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
       name:"Casey",
       description:
-      `I first met Dylan at SB Hacks this year and for some reason we both thought we knew each other from before haha. Ever since then we've done tons of stuff together and I honestly consider him one of my best friends. He's the most chill, laid-back, adaptable, capable and definitely most amazing person I know. Congratulations on graduating, Dylan. I know you will definitely do amazing things in the future!`,
-      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/bill.jpg?alt=media&token=7275e381-b606-41f4-b148-eb5daeea0a73"],
+      `Hey Dylan! 
+
+    This gift was Justin’s idea and Jose and I teamed up to develop the website! I hope you like it as I thought it was a fitting gift for the guy who introduced me to web dev. Ignore the spaghetti code on my end as this was done through the trenches of the night (Jose hard carry). I’m grateful to have met you through my dear nephew and you’ve honestly impacted 100% of my time at UCI. Thank you for everything and I wish you the best in the future! 
+    `,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/tft.jpg?alt=media&token=0e3371b5-2700-4417-a82c-e76b3b9be1e2", "https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/ball.jpg?alt=media&token=63c3ec3d-e7d7-43d1-aadd-66b78c714c09"],
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
   ];
