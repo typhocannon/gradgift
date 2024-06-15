@@ -1,0 +1,21 @@
+{
+  "name": "image-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "opt": "npx tsx imageOptimizer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "sharp": "^0.33.4",
+    "tsx": "^4.15.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
