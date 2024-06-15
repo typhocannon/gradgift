@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* margin: 0 auto; */
+  /* padding-block: 2rem; */
   text-align: center;
+  height: 100vh;
+  outline: 1px solid green;
 }
 
 .logo {
@@ -39,4 +40,30 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.scroll-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.scroll-item {
+  width: 100vw;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 10px;
 }
