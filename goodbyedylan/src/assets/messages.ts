@@ -241,12 +241,12 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
       `Hey Dylan,
 
       Congrats on graduating! Youre one of the most passionate, kind, and smart people I know. I know that after you graduate that you'll go on to do great things and that your best days are ahead of you. Enjoy the fruits of your labor for today and I hope that your graduation is shared with friends and family. You deserve it.
-
+(inyurl.co)
 
       Best,
       Alan
       `,
-      image:["https://i.ibb.co/xGGhRLR/Dylan-Graduation.jpg"],
+      image:[],
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
     {
