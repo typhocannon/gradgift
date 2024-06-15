@@ -116,7 +116,7 @@ function App() {
                                 // background={m.background}
                                 // className={i % 3 === 0|| i % 6 === 0 ? "md:col-span-2 debug" : "debug"}
                                 // className={cn("[&>p:text-lg]", '')}
-                                className="border flex items-center justify-center w-[25rem]"
+                                className="border flex items-center justify-center w-[20rem] sm:w-[25rem]"
                                 // style={{ width: `${m.width}px`, height: `${m.height}px` }}
                             />
                         ))}
