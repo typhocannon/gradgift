@@ -2,6 +2,8 @@ import { cn } from "../../lib/utils";
 import { ReactNode, useState } from "react";
 import CarouselComponent from "../carousel";
 import ReactCardFlip from "react-card-flip";
+import { FcPicture } from "react-icons/fc";
+
 import "../../App.css";
 const BentoGrid = ({
     children,
@@ -55,7 +57,7 @@ const BentoCard = ({
                     // "transform-gpu dark:bg-black dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]",
                     // "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
                     // "absolute bg-blue-200 border border-gray-400 flex items-center justify-center",
-                    "border flex flex-col py-4 items-center justify-center cursor-pointer", // chatgpt to center content
+                    "border flex flex-col py-4 items-center justify-center cursor-pointer ", 
                     className
                 )}
             >
@@ -98,19 +100,22 @@ const BentoCard = ({
                 onClick={handleClick}
                 className={cn(
                     "rounded-xl bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
-                    "border flex items-center justify-center pointer",
+                    "border flex items-center justify-center cursor-pointer",
+                    "transform transition hover:scale-105 shadow-lg shadow-red-500/50", // background glow to indicate flippable
                     className
                 )}
             >
-                <div className="max-w-sm pointer-events-none flex flex-col m-3 mt-10 transition-all duration-300 group-hover:-translate-y-5 rounded-lg h-full">
-                    <div className="flex-grow flex flex-col justify-between">
-                        <div className="text-container mt-5">
+                <div className="max-w-sm pointer-events-none flex flex-col m-3 mt-10 transition-all duration-300 group-hover:-translate-y-5 rounded-lg h-full ">
+                    <div className="flex-grow flex flex-col justify-between ">
+                        <div className="text-container mt-5 ">
                             <h3 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300">
                                 {name}
                             </h3>
-                            <p className="max-w-lg text-neutral-400 m-4">
+                            <p className="max-w-lg text-neutral-400 m-4 ">
                                 {description}
                             </p>
+                            <FcPicture className="mx-auto " size={'40'}/>
+
                         </div>
                     </div>
                 </div>
