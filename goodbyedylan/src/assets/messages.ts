@@ -277,16 +277,52 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
     {
-      name: "Bryant",
+      name: "Chris",
       description:
-      `Hi Dylan!
+      `Hi Dylan, 
 
-      Congrats on grad’ing! It’s crazy to think that we were playing MapleStory and Mario Galaxy as kids. I feel extremely lucky to have stayed connected throughout our lives. 
-      I have to confess that I’ve looked up to you since we were kids. You being older, I thought that you were so accomplished and knew how to do so many cool things. Much of that admiration is the same to how I look at you now. I’m constantly amazed at how many skills you have and how you’re able to tackle any problem. Working with you in hackathons has been rewarding by seeing how you work and us being able to make a project together.
-      Someday, I hope to emulate the perseverance, intelligence, and compassion that I see in you. Take care, I know you’ll do great things in life, and let’s keep going to climb together!
-      -Childhood Best Friend Bryant
+      It was awesome getting to know you at UCI. I had a lot of fun spending time with you and I appreciate all the times you spent helping me throughout the last two years. Thank you for introducing me to climbing. Thank you for cooking delicious meals for me. Thank you for everything else that I am grateful for. I wish you the best on your future endeavors. And I am sure you will leave positive changes wherever you go. Congrats on graduating! 
+
+      Stay sigma,
+
+      Chris
       `,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/image_123650291.JPG?alt=media&token=201553a7-6a79-4050-87fe-268717b4297a"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Jayson",
+      description:
+      `Congrats on graduating Dylan! I'm grateful that I got to meet you during my last two years of college. There's a lot of memories we share that I'm so glad to have because you and every one of our friends were one of the highlights of my experience here. I'm excited to live with you next year and hangout more :)`,
       image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Jayson",
+      description:
+      `Congrats on graduating Dylan! I'm grateful that I got to meet you during my last two years of college. There's a lot of memories we share that I'm so glad to have because you and every one of our friends were one of the highlights of my experience here. I'm excited to live with you next year and hangout more :)`,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name: "Thao",
+      description:
+      `Congrats on graduating Dylan! Thank you for helping me with the hackathons and being an awesome friend. Luckily you are going to be staying in Irvine next year. Hopefully we will be seeing each other more often next year. `,
+      image:[],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name:"Bill",
+      description:
+      `I first met Dylan at SB Hacks this year and for some reason we both thought we knew each other from before haha. Ever since then we've done tons of stuff together and I honestly consider him one of my best friends. He's the most chill, laid-back, adaptable, capable and definitely most amazing person I know. Congratulations on graduating, Dylan. I know you will definitely do amazing things in the future!`,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/bill.jpg?alt=media&token=7275e381-b606-41f4-b148-eb5daeea0a73"],
+      className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
+    },
+    {
+      name:"Casey",
+      description:
+      `I first met Dylan at SB Hacks this year and for some reason we both thought we knew each other from before haha. Ever since then we've done tons of stuff together and I honestly consider him one of my best friends. He's the most chill, laid-back, adaptable, capable and definitely most amazing person I know. Congratulations on graduating, Dylan. I know you will definitely do amazing things in the future!`,
+      image:["https://firebasestorage.googleapis.com/v0/b/venushacks2024-777a4.appspot.com/o/bill.jpg?alt=media&token=7275e381-b606-41f4-b148-eb5daeea0a73"],
       className: "lg:col-start-2 lg:col-end-5 lg:row-start-2 lg:row-end-4"
     },
   ];
