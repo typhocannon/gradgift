@@ -101,7 +101,7 @@ const BentoCard = ({
                 className={cn(
                     "rounded-xl bg-white [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
                     "border flex items-center justify-center cursor-pointer",
-                    "transform transition hover:scale-105 shadow-lg shadow-red-500/50", // background glow to indicate flippable
+                    "transform hover:scale-105 shadow-lg shadow-red-500/50", // background glow to indicate flippable
                     className
                 )}
             >
