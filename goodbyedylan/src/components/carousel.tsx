@@ -108,7 +108,7 @@ function CarouselComponent({ images }: carouselProps) {
 
   return (
     <div
-    className="debug mx-auto"
+    className="mx-auto"
       style={{
         position: 'relative',
         // width: '100%',

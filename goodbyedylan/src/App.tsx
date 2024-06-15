@@ -98,7 +98,7 @@ function App() {
                         style={{gridTemplateColumns: `repeat(${columns + 1}, auto)`}}
                     > */}
                     <BentoGrid 
-                        className={`${columns <= 3 && `mx-auto`} grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto debug p-5`}
+                        className={`${columns <= 3 && `mx-auto`} grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto p-5`}
                         style={{
                           gridTemplateColumns: `repeat(${columns}, auto)`,
                         }}
