@@ -7,13 +7,16 @@ function CarouselComponent({ images }: carouselProps) {
     <div
       style={{
         position: 'relative',
-        width: '100%',
+        // width: '100%',
+        maxWidth: '80%',
+        height: 'auto'
       }}
     >
       <Carousel
         additionalTransfrom={0}
-        arrows
-        autoPlaySpeed={3000}
+        arrows={false}
+        autoPlay
+        autoPlaySpeed={4000}
         centerMode={false}
         className=""
         containerClass="container"
