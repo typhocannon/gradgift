@@ -2,16 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { BackgroundGradientAnimation } from "./components/background-gradient-animation";
 import { BentoCard, BentoGrid } from "./components/magicui/bento-grid";
-// import {
-//   BellIcon,
-//   CalendarIcon,
-//   FileTextIcon,
-//   GlobeIcon,
-//   InputIcon,
-// } from "@radix-ui/react-icons";
-// import { cn } from './lib/utils';
-// import { features } from "./assets/test";
 import { messages } from "./assets/messages";
+
 
 function App() {
     // const [cards, setCards] = useState<typeof features>([]);
@@ -90,38 +82,41 @@ function App() {
     }, []);
 
     return (
-        <div >
+        <div>
             <BackgroundGradientAnimation>
                     {/* <BentoGrid className="lg:grid-rows-5"> */}
                     {/* <BentoGrid 
                         className={`grid gap-2 auto-rows-auto place-items-center overflow-x-auto overflow-y-hidden my-auto debug`}
                         style={{gridTemplateColumns: `repeat(${columns + 1}, auto)`}}
                     > */}
-                    <BentoGrid 
-                        className={`${columns <= 3 && `mx-auto`} grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto p-5`}
-                        style={{
-                          gridTemplateColumns: `repeat(${columns}, auto)`,
-                        }}
+                      <BentoGrid 
+                          className={`${columns <= 3 && `mx-auto`} grid gap-5 grid-flow-row-dense overflow-x-auto place-items-center overflow-y-hidden my-auto p-5 scroll-container`}
+                          style={{
+                            gridTemplateColumns: `repeat(${columns}, auto)`,
+                          }}
 
-                    >
-                        {messages && messages.map((m, i) => (
-                            <BentoCard
-                                key={m.name + i}
-                                name={m.name}
-                                description={m.description}
-                                image={m.image}
-                                // href={m.href}
-                                // cta={m.cta}
-                                // background={m.background}
-                                // className={i % 3 === 0|| i % 6 === 0 ? "md:col-span-2 debug" : "debug"}
-                                // className={cn("[&>p:text-lg]", '')}
-                                className="border flex items-center justify-center w-[20rem] sm:w-[25rem]"
-                                // style={{ width: `${m.width}px`, height: `${m.height}px` }}
-                            />
-                        ))}
-                    </BentoGrid>
+                      >
+                          {messages && messages.map((m, i) => (
+                              <BentoCard
+                                  key={m.name + i}
+                                  name={m.name}
+                                  description={m.description}
+                                  image={m.image}
+                                  // href={m.href}
+                                  // cta={m.cta}
+                                  // background={m.background}
+                                  // className={i % 3 === 0|| i % 6 === 0 ? "md:col-span-2 debug" : "debug"}
+                                  // className={cn("[&>p:text-lg]", '')}
+                                  className="border flex items-center justify-center w-[20rem] sm:w-[25rem]"
+                                  // style={{ width: `${m.width}px`, height: `${m.height}px` }}
+                              />
+                          ))}
+
+                      </BentoGrid>
+
             </BackgroundGradientAnimation>
         </div>
+
     );
 }
 
