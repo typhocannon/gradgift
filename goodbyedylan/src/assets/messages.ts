@@ -26,7 +26,7 @@ PS: We forgive you for being a traitor ;)) (https://t)`,
       className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
     },
     {
-      name: "Jeffery",
+      name: "Jeffrey",
       description: "Dylan, congrats on graduating! it’s been so great getting to know you and working with you on events committee these past two years. I hope you have a great time working and wish you the best of luck in all your future endeavors!",
       image: [],
       className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
